@@ -11,7 +11,7 @@ namespace EntityLayer.Concrete
     {
         [Key]
         public int DestinationId { get; set; }
-        public Stream City { get; set; }
+        public string City { get; set; }
         public string DayNigth { get; set; }
         public double Price { get; set; }
         public string Image { get; set; } 
